@@ -1,0 +1,24 @@
+.contenidoPrincipal .contenido-principal{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 90%;
+}
+.left{
+    display: flex;
+    height: 90%;
+    width: 70%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.coppy{
+    display: flex;
+    height: 22%;
+    align-items: flex-end;
+    justify-content: center;
+}

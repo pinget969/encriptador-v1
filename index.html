@@ -8,6 +8,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 class="titulo">Encriptador</h1>
+    <img class="logoImg" src="img/Vector.png" alt="">
+    <div class="logo1" id="logo"></div>
+    <div class="container">
+        <section class="contenidoPrincipal">
+            <div class="contenido-principal">
+                <div class="left">
+                    <input class="primerInputTexto" type="text" placeholder="Escribar aquí lo que desea encriptar"
+                        id="inputTexto">
+                    <div class="left-button">
+                        <p class="condicion">Solo letras minúsculas y sin acentos</p>
+                        <button type="button" id="btn-encriptar" onclick="encriptar(this)">Encriptar</button>
+                        <button type="button" id="btn-desEncriptar" onclick="desencriptar(this)">Desencriptar</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1 id="nada"></h1>
+                    <img src="img/princesaFiona.png" alt="" id="imgNene">
+                    <h1 class="texto"> </h1>
+                    <div id="span">
+                        <span id="message"></span>
+                    </div>
+                    <textarea name="name" id="mensajeEjecutado" cols="35" rows="8"
+                        readonly>Ingrese el texto que desea encriptar o desencriptar</textarea>
+                    <div class="coppy">
+                        <button id="copy" type="button" onclick="copiar(this)">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contenido">
+        </div>
+        <footer>
+            <div class="contenido">
+                <div class="contenedor-footer">
+                    <div class="content-foo">
+                        <h4>github</h4>
+                        <p>github.com/pinget969</p>
+                    </div>
+                    <div class="content-foo">
+                        <h4>Email</h4>
+                        <p>njpinget@gmail.com</p>
+                    </div>
+                    <div class="content-foo">
+                        <h4>Linkedin</h4>
+                        <p>https://n9.cl/ul07m</p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; NJ| Pinget</h2> <!-- propietario-->
+        </footer>
+
 </body>
 </html>

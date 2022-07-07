@@ -1,24 +1,35 @@
-.contenidoPrincipal .contenido-principal{
-    display: flex;
-    justify-content: space-between;
-    height: 500px;
-}
-.right{
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-    height: 90%;
-}
-.left{
-    display: flex;
-    height: 90%;
-    width: 70%;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.coppy{
-    display: flex;
-    height: 22%;
-    align-items: flex-end;
-    justify-content: center;
+@media (max-width: 620px){
+    .contenidoPrincipal .contenido-principal{
+        flex-direction: column;
+        height: initial;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .primerInputTexto{
+        height: 30px;
+        font-size: 17px;
+    }
+    .right{
+        flex-direction: column;
+        width: 90%;
+        margin: 6px;
+    }
+    .left{
+        width: 90%;
+    }
+    .left-button{
+        width: 100%;
+    }
+    .left p {
+        width: 95%;
+    }
+    .btnLeft{
+        height: 50px;
+    }
+    #btn-desEncriptar, #btn-encriptar{
+        height: 50px;
+        margin: 5px;
+        font-size: 11px;
+    }
 }

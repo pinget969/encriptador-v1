@@ -1,0 +1,30 @@
+/* footer*/
+footer{
+    background: #6d6d6d;
+    padding: 5px 0 30px 0;
+    margin: auto; 
+    overflow: hidden; 
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90;
+    justify-content: space-evenly;
+    margin:auto;
+    border-bottom: 1px, solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color:white;
+    border-bottom: 2px solid #0A3871;
+}
+.content-foo p{
+    color: #dddddd;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(29, 29, 29);
+}

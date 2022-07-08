@@ -21,9 +21,6 @@
     .left-button{
         width: 100%;
     }
-    .left p {
-        width: 95%;
-    }
     .btnLeft{
         height: 50px;
     }
@@ -31,5 +28,22 @@
         height: 50px;
         margin: 5px;
         font-size: 11px;
+    }
+    .content-foo{
+        display: none;
+    }
+    .content-img{
+    display: flex;
+    }
+    .titulo-final{
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px){
+    #btn-encriptar, #btn-desEncriptar{
+        font-size: 10px;
+    }
+    #btn-encriptar:hover, #btn-desEncriptar:hover{
+        font-size: 12px;
     }
 }

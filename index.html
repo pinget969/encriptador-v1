@@ -7,7 +7,9 @@
     <title class="titulo">Encriptador</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 <body>
     <img class="logoImg" src="img/Vector.png" alt="">
@@ -19,14 +21,18 @@
                     <input class="primerInputTexto" type="text" placeholder="Escribar aquí lo que desea encriptar"
                         id="inputTexto">
                     <div class="left-button">
-                        <p class="condicion">Solo letras minúsculas y sin acentos</p>
+                        <div class="contenido-condicion">
+                            <p class="condicion">Solo letras minúsculas y sin acentos</p>
+                        </div>
                         <button type="button" id="btn-encriptar" onclick="encriptar(this)">Encriptar</button>
                         <button type="button" id="btn-desEncriptar" onclick="desencriptar(this)">Desencriptar</button>
                     </div>
                 </div>
                 <div class="right">
                     <h1 id="nada"></h1>
-                    <img src="img/princesaFiona.png" alt="" id="imgNene">
+                    <div class="img-principal">
+                     <img src="img/princesaFiona.png" alt="" id="imgNene">
+                    </div>
                     <h1 class="texto"> </h1>
                     <div id="span">
                         <span id="message"></span>
@@ -43,23 +49,30 @@
         </div>
         <footer>
             <div class="contenido">
-                <div class="contenedor-footer">
+                <div class="contenido-enlaces">
+                    <a href="https://github.com/pinget969"><img class="content-img" src="img/github-logo.png" alt=""></a>
+                    <a href="mailto:njpinget@gmail.com"><img class="content-img" src="img/gmail-logo.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/nelson-pinget-05a427206/"><img class="content-img" src="img/linkedin-logo.png" alt=""></a>
+                </div>
+                    <div class="contenedor-footer">
+                    
                     <div class="content-foo">
-                        <h4>github</h4>
-                        <p>github.com/pinget969</p>
+                        <h4>Github</h4>
+                        <a href="https://github.com/pinget969"><p>github.com/pinget969</p></a>           
                     </div>
                     <div class="content-foo">
                         <h4>Email</h4>
-                        <p>njpinget@gmail.com</p>
+                        <a href="mailto:njpinget@gmail.com"><p>njpinget@gmail.com</p></a>
                     </div>
                     <div class="content-foo">
                         <h4>Linkedin</h4>
-                        <p>https://n9.cl/ul07m</p>
+                        <a href="https://www.linkedin.com/in/nelson-pinget-05a427206/"><p>https://n9.cl/ul07m</p></a>
                     </div>
                 </div>
             </div>
             <h2 class="titulo-final">&copy; NJ| Pinget</h2> <!-- propietario-->
         </footer>
-
+        <script src="encriptar.js"></script>
 </body>
+
 </html>

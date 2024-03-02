@@ -2,7 +2,8 @@
 footer{
     background: #6d6d6d;
     padding: 5px 0 30px 0;
-    margin: auto; 
+    /*margin: auto; */
+    margin-top: auto;
     overflow: hidden; 
 }
 

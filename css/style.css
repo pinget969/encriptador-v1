@@ -1,13 +1,17 @@
-.titulo{
+ .titulo{
     color: red;
 }
-body{
-    margin: 0px;
-    padding: 0px;
+html, body{
     background: #e5e5e5;
+    height: 100%; 
+    margin: 0;
+    padding: 0px;
 }
 
 .container{ 
+    display: flex;
+    flex-direction: column;
+    min-height: 90.3vh;
     background: #E5E5E5;
     background-size: cover;
 }
@@ -122,10 +126,12 @@ a{
 .img-principal{
     display: flex;
     justify-content: center;
+    max-width: 98%;
 }
 #imgNene{
     display: flex;
-    width: 89%;
+    /*width: 89%;*/
+    max-width: 80%;
 }
 #copy{
     bottom: 186px;
